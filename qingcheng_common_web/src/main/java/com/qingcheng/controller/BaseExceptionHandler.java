@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @ControllerAdvice
 public class BaseExceptionHandler {
-
+//
     //private Logger logger= LoggerFactory.getLogger(BaseExceptionHandler.class);
 
     @ExceptionHandler(Exception.class)
