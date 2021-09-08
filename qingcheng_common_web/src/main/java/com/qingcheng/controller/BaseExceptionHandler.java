@@ -14,7 +14,7 @@ public class BaseExceptionHandler {
 //
     //private Logger logger= LoggerFactory.getLogger(BaseExceptionHandler.class);
 
-    @ExceptionHandler(Exception.class)
+    @ExceptionHandler(Exception.class)git
     @ResponseBody
     public Result error(Exception e){
         e.printStackTrace();
